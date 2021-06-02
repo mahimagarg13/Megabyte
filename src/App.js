@@ -4,6 +4,7 @@ import "./Component/Custom.css"
 
 import Head from "./Component/Head"
 import Catalog from "./Component/Catalog"
+import Allcatag from "./Component/Allcatag"
 
 
 function App(){
@@ -12,6 +13,7 @@ function App(){
         <Nav /> 
     <Head />
     <Catalog />
+    <Allcatag />
          </>
     );
 }

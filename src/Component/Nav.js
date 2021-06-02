@@ -1,23 +1,37 @@
 import "./Custom.css"
+import logo from "./Images/logo.png"
+import gift from "./Images/gift.png"
+import bell from "./Images/bell.png"
+
+
 
 
 function Nav(){
     return(
        
-        <div className="bg-clr   ">
-            <div className="logo-hgt">
-                <img href="" />
+        <div className="bg-clr flex-box  ">
+        {/* //     <div className="logo-hgt">
+        //         <img src={logo} />
+        //     </div> */}
+            
+            {/* <div className="logo-hgt logo-w"> */}
+                <img src={logo} className="logo-hgt logo-w  nav-m cursor"  alt="not available"/>
+            
+                <button href="#" className="btn-h btn-m btn-bg btn-fclr a btn-bdr nav-f-size cursor  ">Home</button>
+                <button href="#" className="btn-h btn-m btn-bg btn-fclr a btn-bdr nav-f-size cursor ">TV Shows</button>
+                <button href="#" className="btn-h btn-m btn-bg btn-fclr a btn-bdr nav-f-size cursor "> Movies</button>
+                <button href="#" className="btn-h btn-m btn-bg btn-fclr a btn-bdr  nav-f-size  cursor ">Recently Added</button>
+                <button href="#" className="btn-h btn-m btn-bg btn-fclr btn-bdr a  nav-f-size cursor ">My List</button>              
+               
+               <input  className="cursor btn-h btn-m display btn-bg btn-fclr  a btn-bdr nav-f-size search-mg" type="text" placeholder="Search..."/>
+              
+                <button href="#" className="btn-h dispaly btn-m btn-bg btn-fclr a cursor btn-bdr nav-f-size nav-mg ">KIDS</button>
+                <button href="#" className="btn-h display btn-m btn-bg btn-fclr a cursor  btn-bdr nav-f-size  ">DVD</button>
+                <img src={gift} className="icon display nav-m cursor"  alt="not available"/>
+                <img src={bell} className="icon display nav-m cursor"  alt="not available"/>
+           
             </div>
-            <div className=" ">
-                <button href="#" className="btn-h btn-m btn-bg btn-fclr a btn-bdr nav-f-size  ">Home</button>
-                <button href="#" className="btn-h btn-m btn-bg btn-fclr a btn-bdr nav-f-size  ">Tv Shows Movies</button>
-                <button href="#" className="btn-h btn-m btn-bg btn-fclr a btn-bdr  nav-f-size   ">Recently Added</button>
-                <button href="#" className="btn-h btn-m btn-bg btn-fclr btn-bdr a  nav-f-size ">My List</button>              
-                <button href="#" className="btn-h btn-m btn-bg btn-fclr a btn-bdr nav-f-size nav-mg ">KIDS</button>
-                <button href="#" className="btn-h btn-m btn-bg btn-fclr a btn-bdr nav-f-size  ">DVD</button>
-
-            </div>
-        </div>
+        
 
 
     );
