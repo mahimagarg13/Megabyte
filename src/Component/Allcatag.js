@@ -33,7 +33,9 @@ function Allcatag() {
             <a href="/Video">
             <img src={Image3} className="poster z m" alt="not available" /></a>
             <a href="/Video">
-            <img src={Image4} className="poster z m" alt="not available" /></a>
+            <img src={Image4} className="poster z m" alt="not available" /></a> 
+             <a href="/Video">
+            <img src={Image5} className="poster z m" alt="not available" /></a>
             <a href="/Video">
             <img src={Image6} className="poster z m" alt="not available" /></a>
             <a href="/Video">
