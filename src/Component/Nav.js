@@ -14,19 +14,19 @@ function Nav(){
         //         <img src={logo} />
         //     </div> */}
             
-            {/* <div className="logo-hgt logo-w"> */}
-                <img src={logo} className="logo-hgt logo-w  nav-m cursor"  alt="not available"/>
+            {/* <div className="logo-hgt logo-w margin"> */}
+                <img src={logo} className="logo-hgt margin logo-w  nav-m cursor"  alt="not available"/>
             
-                <button href="#" className="btn-h btn-m btn-bg btn-fclr a btn-bdr nav-f-size cursor  ">Home</button>
-                <button href="#" className="btn-h btn-m btn-bg btn-fclr a btn-bdr nav-f-size cursor ">TV Shows</button>
-                <button href="#" className="btn-h btn-m btn-bg btn-fclr a btn-bdr nav-f-size cursor "> Movies</button>
-                <button href="#" className="btn-h btn-m btn-bg btn-fclr a btn-bdr  nav-f-size  cursor ">Recently Added</button>
-                <button href="#" className="btn-h btn-m btn-bg btn-fclr btn-bdr a  nav-f-size cursor ">My List</button>              
+                <button href="#" className="btn-h btn-m margin btn-bg btn-fclr a btn-bdr nav-f-size cursor  ">Home</button>
+                <button href="#" className="btn-h btn-m margin btn-bg btn-fclr a btn-bdr nav-f-size cursor ">TV Shows</button>
+                <button href="#" className="btn-h btn-m margin btn-bg btn-fclr a btn-bdr nav-f-size cursor "> Movies</button>
+                <button href="#" className="btn-h btn-m margin btn-bg btn-fclr a btn-bdr  nav-f-size  cursor ">Recently Added</button>
+                <button href="#" className="btn-h btn-m margin btn-bg btn-fclr btn-bdr a  nav-f-size cursor ">My List</button>              
                
-               <input  className="cursor btn-h btn-m display btn-bg btn-fclr  a btn-bdr nav-f-size search-mg" type="text" placeholder="Search..."/>
+               <input  className="cursor btn-h btn-m display s-w btn-bg btn-fclr  a btn-bdr nav-f-size search-mg" type="text" placeholder="Search..."/>
               
-                <button href="#" className="btn-h dispaly btn-m btn-bg btn-fclr a cursor btn-bdr nav-f-size nav-mg ">KIDS</button>
-                <button href="#" className="btn-h display btn-m btn-bg btn-fclr a cursor  btn-bdr nav-f-size  ">DVD</button>
+                <button href="#" className="btn-h dispaly  b-m btn-bg btn-fclr a cursor btn-bdr nav-f-size nav-mg ">KIDS</button>
+                <button href="#" className="btn-h display b-m btn-bg btn-fclr a cursor  btn-bdr nav-f-size  ">DVD</button>
                 <img src={gift} className="icon display nav-m cursor"  alt="not available"/>
                 <img src={bell} className="icon display nav-m cursor"  alt="not available"/>
            
