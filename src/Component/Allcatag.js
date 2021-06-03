@@ -23,10 +23,17 @@ import Image19 from "./Images/image19.jpg"
 function Allcatag (){
     return(
 <div className="head-clr  pd allcatg-h   ">
-<img src={Image1} className="poster z m"  alt="not available"  />
-<img src={Image2} className="poster z m"  alt="not available"  />
-<img src={Image3} className="poster z m"  alt="not available"  />
-<img src={Image4} className="poster z m"  alt="not available"  />
+<a href=
+"https://www.youtube.com/embed/WPlXILGpOFk">
+            
+<img src={Image1} className="poster z m"  alt="not available"  /></a>
+<a href="https://www.youtube.com/embed/w-Xe8gLBc5I" >
+<img src={Image2} className="poster z m"  alt="not available"  /></a>
+<a href="https://www.youtube.com/embed/gVkwukY6rig" >
+<img src={Image3} className="poster z m"  alt="not available"  /></a>
+<a href="https://www.youtube.com/embed/vsK02DRlbjU" >
+<img src={Image4} className="poster z m"  alt="not available"  /></a>
+
 <img src={Image6} className="poster z m"  alt="not available"  />
 <img src={Image7} className="poster z m"  alt="not available"  />
 <img src={Image8} className="poster z m"  alt="not available"  />
