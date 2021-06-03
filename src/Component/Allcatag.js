@@ -1,4 +1,6 @@
 import "./Custom.css"
+// import Video from "./Component/Video"
+
 import Image1 from "./Images/image1.jpg"
 import Image2 from "./Images/image2.jpg"
 import Image3 from "./Images/image3.jpg"
@@ -20,37 +22,49 @@ import Image18 from "./Images/images18.jpg"
 import Image19 from "./Images/image19.jpg"
 
 
-function Allcatag (){
-    return(
-<div className="head-clr  pd allcatg-h   ">
-<a href=
-"https://www.youtube.com/embed/WPlXILGpOFk">
+function Allcatag() {
+    return (
+        
+        <div className="head-clr  pd allcatg-h">
+            <a href="/Video"><img src={Image1} className="poster z m" alt="not available" />
+                </a>
+                <a href="/Video">  
+            <img src={Image2} className="poster z m" alt="not available" /></a>
+            <a href="/Video">
+            <img src={Image3} className="poster z m" alt="not available" /></a>
+            <a href="/Video">
+            <img src={Image4} className="poster z m" alt="not available" /></a>
+            <a href="/Video">
+            <img src={Image6} className="poster z m" alt="not available" /></a>
+            <a href="/Video">
+            <img src={Image7} className="poster z m" alt="not available" /></a>
+            <a href="/Video">
+            <img src={Image8} className="poster z m" alt="not available" /></a>
+            <a href="/Video">
+            <img src={Image9} className="poster z m" alt="not available" /></a>
             
-<img src={Image1} className="poster z m"  alt="not available"  /></a>
-<a href="https://www.youtube.com/embed/w-Xe8gLBc5I" >
-<img src={Image2} className="poster z m"  alt="not available"  /></a>
-<a href="https://www.youtube.com/embed/gVkwukY6rig" >
-<img src={Image3} className="poster z m"  alt="not available"  /></a>
-<a href="https://www.youtube.com/embed/vsK02DRlbjU" >
-<img src={Image4} className="poster z m"  alt="not available"  /></a>
-
-<img src={Image6} className="poster z m"  alt="not available"  />
-<img src={Image7} className="poster z m"  alt="not available"  />
-<img src={Image8} className="poster z m"  alt="not available"  />
-<img src={Image9} className="poster z m"  alt="not available"  />
-<img src={Image10} className="poster z m"  alt="not available"  />
-<img src={Image11} className="poster z m"  alt="not available"  />
-<img src={Image12} className="poster z m"  alt="not available"  />
-<img src={Image13} className="poster z m"  alt="not available"  />
-<img src={Image14} className="poster z m"  alt="not available"  />
-<img src={Image15} className="poster z m"  alt="not available"  />
-<img src={Image16} className="poster z m"  alt="not available"  />
-<img src={Image17} className="poster z m"  alt="not available"  />
-<img src={Image18} className="poster z m"  alt="not available"  />
-<img src={Image19} className="poster z m"  alt="not available"  />
-
-
-</div>
+            <a href="/Video">
+            <img src={Image10} className="poster z m" alt="not available" /></a>
+            <a href="/Video">
+            <img src={Image11} className="poster z m" alt="not available" /></a>
+            <a href="/Video">
+            <img src={Image12} className="poster z m" alt="not available" /></a>
+            <a href="/Video">
+            <img src={Image13} className="poster z m" alt="not available" /></a>
+            <a href="/Video">
+            <img src={Image14} className="poster z m" alt="not available" /></a>
+            <a href="/Video">
+            <img src={Image15} className="poster z m" alt="not available" /></a>
+            <a href="/Video">
+            <img src={Image16} className="poster z m" alt="not available" /></a>
+            <a href="/Video">
+            <img src={Image17} className="poster z m" alt="not available" /></a>
+            <a href="/Video">
+            <img src={Image18} className="poster z m" alt="not available" /></a>
+            <a href="/Video">
+            <img src={Image19} className="poster z m" alt="not available" /></a>
+        </div>
+        
     );
 }
 export default Allcatag;
