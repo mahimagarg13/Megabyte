@@ -1,6 +1,4 @@
-
-
-
+import react from 'react'
 
 function Video() {
     return (
